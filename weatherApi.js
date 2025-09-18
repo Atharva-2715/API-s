@@ -3,6 +3,10 @@ const axios = require('axios');
 const app = express();
 require('dotenv').config();
 
+
+/*always make changes in the .env file and update it with weather api
+WEATHER_API=a5763cb9769646e9b2b140135251509
+*/
 app.use(express.json());
 
 const PORT = 3000;
